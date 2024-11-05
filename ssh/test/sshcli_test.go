@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/crypto/internal/testenv"
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/testdata"
+	"github.com/viaTunnel/golang-crypto/internal/testenv"
+	"github.com/viaTunnel/golang-crypto/ssh"
+	"github.com/viaTunnel/golang-crypto/ssh/testdata"
 )
 
 func sshClient(t *testing.T) string {

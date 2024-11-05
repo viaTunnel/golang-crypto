@@ -29,7 +29,7 @@ import (
 	"errors"
 	"sync"
 
-	"golang.org/x/crypto/internal/alias"
+	"github.com/viaTunnel/golang-crypto/internal/alias"
 )
 
 // Cipher contains an expanded key structure. It is safe for concurrent use if

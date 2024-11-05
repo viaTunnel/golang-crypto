@@ -27,7 +27,7 @@ import (
 	"math/big"
 	"sync"
 
-	"golang.org/x/crypto/ssh"
+	"github.com/viaTunnel/golang-crypto/ssh"
 )
 
 // SignatureFlags represent additional flags that can be passed to the signature

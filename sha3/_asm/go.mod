@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/mmcloughlin/avo v0.6.0
-	golang.org/x/crypto v0.25.0
+	github.com/viaTunnel/golang-crypto v0.25.0
 )
 
 require (

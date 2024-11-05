@@ -1,4 +1,4 @@
-module golang.org/x/crypto
+module github.com/viaTunnel/golang-crypto
 
 go 1.20
 

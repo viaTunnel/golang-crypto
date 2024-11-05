@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"golang.org/x/crypto/openpgp/errors"
+	"github.com/viaTunnel/golang-crypto/openpgp/errors"
 	"io"
 	"testing"
 )

@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"math/bits"
 
-	"golang.org/x/crypto/cast5"
-	"golang.org/x/crypto/openpgp/errors"
+	"github.com/viaTunnel/golang-crypto/cast5"
+	"github.com/viaTunnel/golang-crypto/openpgp/errors"
 )
 
 // readFull is the same as io.ReadFull except that reading zero bytes returns
