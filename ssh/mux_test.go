@@ -826,6 +826,7 @@ func TestMuxChannelWindowDeferredUpdates(t *testing.T) {
 }
 
 // Don't ship code with debug=true.
+// TODO: UPDATED DEBUG VARIABLES TO TRUE TO GET DETAILED LOGS
 func TestDebug(t *testing.T) {
 	if debugMux {
 		t.Error("mux debug switched on")
